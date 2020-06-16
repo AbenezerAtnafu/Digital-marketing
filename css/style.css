@@ -751,7 +751,7 @@ body:after {
   color: #fff !important;
 }
 .sticky-wrapper.is-sticky .site-navbar {
-  background: rgba(0,123,255,0.9);
+  background: rgba(0, 123, 255, 0.9);
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
@@ -787,7 +787,7 @@ body:after {
   bottom: 0;
   right: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
 }
 .site-blocks-cover .player {
   position: absolute;
@@ -1963,7 +1963,7 @@ body:after {
 
 .social-media {
   display: inline-block;
-  
+
   margin-bottom: 0px;
   padding: 0;
 }
