@@ -342,7 +342,7 @@ body:after {
 }
 .ul-check li.remove {
   text-decoration: line-through;
-  color: #dee2e6;
+  color: #babdc0;
 }
 .ul-check li.remove:before {
   color: #dee2e6;
