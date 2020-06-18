@@ -2762,3 +2762,8 @@ figure figcaption {
 .single-text .owl-dots .owl-dot.active > span {
   background-color: #fff;
 }
+
+.required{
+  color:rgb(247, 108, 108);
+  
+}

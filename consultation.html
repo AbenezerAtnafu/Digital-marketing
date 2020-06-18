@@ -10,6 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- external font link -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" />
+
+      <!-- favicon -->
+    <link rel="icon" href="./images/favicon.jpg" type="image/jpg" />
+
     <link rel="stylesheet" href="fonts/icomoon/style.css" />
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -50,6 +54,7 @@
 
     <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
         <div class="container">
+<<<<<<< HEAD
             <div class="row align-items-center">
                 <div class="col-6 col-xl-2">
                     <h1 class="mb-0 site-logo">
@@ -95,13 +100,66 @@
                     <a href="#" class="site-menu-toggle js-menu-toggle float-right"><span
                             class="icon-menu h3"></span></a>
                 </div>
+=======
+          <div class="row align-items-center">
+            <div class="col-6 col-xl-2">
+              <h1 class="mb-0 site-logo">
+                <a href="index.html" class="h2 mb-0">Finances<span class="text-primary">.</span>
+                </a>
+              </h1>
             </div>
+  
+            <div class="col-12 col-md-10 d-none d-xl-block">
+              <nav class="site-navigation position-relative text-right" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                  <li>
+                    <a href="index.html#home-section" class="nav-link">Home</a>
+                  </li>
+                  <li class="has-children">
+                    <a href="index.html#about-section" class="nav-link">About Us</a>
+                    <ul class="dropdown">
+                      <li>
+                        <a href="index.html#team-section" class="nav-link">Team</a>
+                      </li>
+                      <li>
+                        <a href="index.html#faq-section" class="nav-link">FAQ</a>
+                      </li>
+                    </ul>
+                  </li>
+  
+                  <li>
+                    <a href="index.html#services-section" class="nav-link">Services</a>
+                  </li>
+                  <li>
+                    <a href="index.html#blog-section" class="nav-link active">Blog</a>
+                  </li>
+                  <li>
+                    <a href="index.html#contact-section" class="nav-link">Contact</a>
+                  </li>
+                  <li class="social">
+                    <a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a>
+                  </li>
+                  <li class="social">
+                    <a href="#contact-section" class="nav-link"><span class="icon-telegram"></span></a>
+                  </li>
+                  <li class="social">
+                    <a href="#contact-section" class="nav-link"><span class="icon-linkedin"></span></a>
+                  </li>
+                </ul>
+              </nav>
+>>>>>>> fe2da36441eee6a9ee9f9a18a9b4315edfdaa10d
+            </div>
+  
+            <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;">
+              <a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
+            </div>
+          </div>
         </div>
-    </header>
+      </header>
 
-    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade"
-        id="home-section">
+      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade">
         <div class="container">
+<<<<<<< HEAD
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-10 mt-lg-5 text-center">
                     <div class="single-text owl-carousel">
@@ -147,15 +205,18 @@
                         </div>
                     </div>
                 </div>
+=======
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-12 mt-lg-5 text-center">
+              <h1>Welcome! This is the very beginning. </h1>
+              <p class="post-meta mt-4">
+                Ask or Order us what you want. <br> We are here to serve you.
+              </p>
+>>>>>>> fe2da36441eee6a9ee9f9a18a9b4315edfdaa10d
             </div>
+          </div>
         </div>
-
-        <a href="#next" class="mouse smoothscroll">
-            <span class="mouse-icon">
-                <span class="mouse-wheel"></span>
-            </span>
-        </a>
-    </div>
+      </div>
 
     <div class="site-section cta-big-image border-bottom bg-light" id="about-section">
         <div class="container">
@@ -276,8 +337,8 @@
 
                         <div class="row form-group">
                             <div class="col-md-12 mb-3 mb-md-0">
-                                <label class="text-black" for="fname">Name</label>
-                                <input type="text" id="fname" class="form-control" />
+                                <label class="text-black" for="fname">Name <span class="required">*</span></label>
+                                <input type="text" id="fname" class="form-control" placeholder="Your name or Business Name"/>
                             </div>
                         </div>
 
@@ -290,10 +351,35 @@
 
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <label class="text-black" for="subject">Phone Number</label>
+                                <label class="text-black" for="subject">Phone Number <span class="required">*</span></label>
                                 <input type="number" id="subject" class="form-control" />
                             </div>
                         </div>
+
+                        <div class="row form-group">
+                          <div class="col-md-12">
+                            <label class="text-black" for="subject">Subject <span class="required"> * </span></label>
+                            <select class="form-control">
+                              <option value="service">Needs Service</option>
+                              <option value="question">Asking a question</option>
+                              <option value="consult">Needs Consultation</option>
+                              <option value="explain">Brief Explanation</option>
+                              <option value="other">Other</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                              <label class="text-black" for="message">Choose Your Package <span class="required">*</span></label>
+                                <select name="pacakge" class="form-control">
+                                  <option value="basic">Basic</option>
+                                  <option value="pre" class="selected">Premium</option>
+                                  <option value="pro">Professional</option>
+                                  <option value="other">Other</option>
+                                </select>
+                            </div>
+                          </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
@@ -374,7 +460,7 @@
                         <div class="col-md-4 footer-social">
                             <h2 class="footer-heading mb-4">Follow Us</h2>
                             <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                            <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                            <a href="#" class="pl-3 pr-3"><span class="icon-telegram"></span></a>
                             <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
                             <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
                         </div>
